@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+:root {
+  --primary-color: rgb(253, 239, 195);
+  --font-gowun:"GowunDodam-Regular";
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+@font-face {
+  font-family: GowunDodam-Regular;
+  src: url(./font/GowunDodum-Regular.ttf);
+}
+
+body{
+  font-family: var(--font-gowun);
+}
